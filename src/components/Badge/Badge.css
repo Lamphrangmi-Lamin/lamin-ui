@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.badge {
+    border-radius: 9999px;
+    border: 1px solid;
+    font-family: "Noto Sans", sans-serif;
+    max-width: fit-content;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.badge_size_sm {
+    padding: 2px 6px 2px 6px;
+    font-size: 12px;
+}
+
+.badge_size_md {
+    padding: 2px 8px;
+    font-size: 14px;
+}
+
+.badge_size_lg {
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.badge_color_neutral {
+    border-color: #e5e5e5;
+    background-color: #f9fafb;
+    color: #525252;
+}
+
+.badge_color_error {
+    border-color: #fecaca;
+    background-color: #fef2f2;
+    color: #dc2626;
+}
+
+.badge_color_warning {
+    border-color: #fde68a;
+    background-color: #fffbeb;
+    color: #a16207;
+}
+
+.badge_color_success {
+    border-color: #bbf7d0;
+    background-color: #f0fdf4;
+    color: #15803d;
+}
+
+.badge_color_brand {
+    border-color: #c7d2fe;
+    background-color: #eef2ff;
+    color: #4338ca;
+}
+
+/* Colors: Neutral, Error, Warning, Success, and Brand
+Sizes: Small, Medium, Large */
