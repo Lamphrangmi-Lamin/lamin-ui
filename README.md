@@ -1,16 +1,54 @@
-# React + Vite
+# Lamin UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Lamin UI is my design system project built as part of the Great Frontend challenge. It is the foundation for a consistent, scalable, and accessible UI library that I can reuse across future product projects and company experiences.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is more than a component playground. It is the starting point of a design system I want to grow over time into a reusable foundation for many future applications.
 
-## React Compiler
+## Goals
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create a consistent visual language for products
+- Build reusable UI components with strong accessibility
+- Establish a scalable structure for future expansion
+- Document the system clearly so it can be shared and extended
 
-## Expanding the Oxlint configuration
+## Current components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Button
+  - Primary
+  - Secondary
+  - Tertiary
+  - Destructive
+  - Link styles
+
+## Design system principles
+
+- Consistency across interfaces
+- Accessibility by default
+- Reusability for future projects
+- Clean and maintainable component structure
+
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Roadmap
+
+In the future, I plan to expand this system with:
+
+- More components such as inputs, cards, modals, and alerts
+- Improved documentation and usage examples
+- Better design tokens and styling consistency
+- Reusable patterns for larger product experiences
+
+This repository is the beginning of a growing design system for my future projects.
